@@ -29,7 +29,7 @@ int main()
     cout<<" Do you want to input Exponent Value (Y/N)?"<<endl;
     cin>>ch;
     
-    if((ch=='y')||(ch=='Y'))
+    if((ch=='y')||(ch=='Y'))              // For comparing both uppercase and lowercase letters as input by the user//
     { cout<<" Enter Exponent Value"<<endl;
       cin>>n;
       power(m,n); }
