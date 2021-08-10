@@ -20,13 +20,13 @@ int main()
     
     switch(oper)
     {
-        case'+': cout<<num1<<"+"<<num2<<"="<<num1+num2;
+        case'+': cout<<num1<<"+"<<num2<<"="<<num1+num2;    // ADDITION//
             break;
-        case'-': cout<<num1<<"-"<<num2<<"="<<num1-num2;
+        case'-': cout<<num1<<"-"<<num2<<"="<<num1-num2;   //SUBTACTION//
             break;
-        case'*': cout<<num1<<"*"<<num2<<"="<<num1*num2;
+        case'*': cout<<num1<<"*"<<num2<<"="<<num1*num2;   //MULTIPLY//
             break;
-        case'/': cout<<num1<<"/"<<num2<<"="<<num1/num2;
+        case'/': cout<<num1<<"/"<<num2<<"="<<num1/num2;    //DIVIDE//
             break;
         default: cout<<"Error!! You've Entered the wrong operand"<<endl;
     }
